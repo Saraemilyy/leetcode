@@ -1,6 +1,6 @@
 ﻿using System;
 
-public class GameTime
+public class Solution1046
 {
     public static void Main(string[] args)
     {
