@@ -9,7 +9,7 @@ class URI
     {
 
         string[] entrada = (Console.ReadLine().Split(' '));
-        Console.WriteLine(Solution1045.ValidarTriangulo(entrada));
+        Console.WriteLine(Solution1042.SortSimples(entrada));
 
 
     }
