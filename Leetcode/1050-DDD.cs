@@ -3,8 +3,12 @@ using System.Collections.Generic;
 
 public class Solution1050
 {
-    public static void Main(string[] args)
+    public static string ValidarDDD(int ddd) { 
     {
+
+
+        int entrada = int.Parse(Console.ReadLine());
+
         Dictionary<int, string> numberss = new Dictionary<int, string>{
             { 61, "Brasilia" },
             { 71, "Salvador" },
@@ -17,20 +21,16 @@ public class Solution1050
 
         };
 
-
-        int entrada = int.Parse(Console.ReadLine());
-
-
         if (numberss.TryGetValue(entrada, out string estado))
         {
-            Console.WriteLine($"{estado}");
+                return ($"{estado}");
 
         }
         else
         {
-            Console.WriteLine("DDD nao cadastrado");
+            return("DDD nao cadastrado");
         }
 
-
+        }
     }
 }

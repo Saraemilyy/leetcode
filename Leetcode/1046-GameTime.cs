@@ -1,22 +1,24 @@
 ﻿using System;
-
+namespace Leetcode;
+using System.Collections.Generic;
+using System.Collections;
 public class Solution1046
 {
-    public static void Main(string[] args)
-    {
-        string[] entrada = Console.ReadLine().Split(' ');
+    //public static string HorasJogo(string[] hora_jogo)
+    //{
+    //    string[] hora_jogos = hora_jogo.Split(' ');
 
-        int horaInicio = int.Parse(entrada[0]);
-        int horaFim = int.Parse(entrada[1]);
+    //    int horaInicio = int.Parse(hora_jogos[0]);
+    //    int horaFim = int.Parse(hora_jogos[1]);
 
 
-        int horasJogo = (horaFim - horaInicio + 24) % 24;
+    //    int horasJogo = (horaFim - horaInicio + 24) % 24;
 
-        if (horasJogo == 0)
-        {
-            horasJogo = 24;
-        }
+    //    if (horasJogo == 0)
+    //    {
+    //        horasJogo = 24;
+    //    }
 
-        Console.WriteLine($"O JOGO DUROU {horasJogo} HORA(S)");
-    }
+    //   return($"O JOGO DUROU {horasJogo} HORA(S)");
+    //}
 }

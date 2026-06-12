@@ -8,7 +8,7 @@
 // Nota do exame: 6.4
 // Aluno aprovado.
 // Media final: 5.9
-namespace LeetCode;
+namespace Leetcode;
 
 
 class Solution1040
@@ -27,7 +27,6 @@ class Solution1040
     //    nota5 = double.Parse(entradaNotas[4]);
     //}
 
-
     //Console.WriteLine(
     //    CalcularMedia(
     //        nota1,
@@ -36,6 +35,7 @@ class Solution1040
     //        nota4,
     //        nota5));
     //    }
+
     public static string CalcularMedia(double nota1, double nota2, double nota3, double nota4, double? nota5 = null)
     {
         int peso1 = 2;
