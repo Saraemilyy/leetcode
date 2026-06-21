@@ -8,9 +8,12 @@ class URI
     static void Main(string[] args)
     {
 
-        string[] entrada = (Console.ReadLine().Split(' '));
-        Console.WriteLine(Solution1042.SortSimples(entrada));
+        string[] pares = Solution1059.NumerosPares();
 
+        foreach (string numero in pares)
+        {
+            Console.WriteLine(numero);
+        }
 
     }
 
