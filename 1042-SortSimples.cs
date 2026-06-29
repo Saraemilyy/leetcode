@@ -4,30 +4,26 @@ namespace Leetcode;
 
 public class Solution1042
 {
-    public static string SortSimples(string[] entradas)
+    public static void SortSimples(string[] entradas)
     {
-        string resultado = "";
+        //string entrada = Console.ReadLine();
 
-        int[] entrada = entradas
-            .Select(v => int.Parse(v, CultureInfo.InvariantCulture))
-            .ToArray();
+        int[] numeros = Array.ConvertAll(entrada.Split(' '), int.Parse);
 
-        int[] ordenado = (int[])entrada.Clone();
+        int[] ordenados = (int[])numeros.Clone();
 
-        Array.Sort(ordenado);
+        Array.Sort(ordenados);
 
-        for (int i = 0; i < ordenado.Length; i++)
+        foreach (int numero in ordenados)
         {
-            resultado += ordenado[i] + "\n";
+            Console.WriteLine(numero);
         }
 
-        resultado += "\n";
+        Console.WriteLine();
 
-        for (int i = 0; i < entrada.Length; i++)
+        foreach (int numero in numeros)
         {
-            resultado += entrada[i] + "\n";
+            Console.WriteLine(numero);
         }
-
-        return resultado;
     }
 }
