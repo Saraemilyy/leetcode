@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Leetcode;
 
-public class _1066_ParesImparesPositivosNegativos
+public class Solution1066
 {
+
+    public static void ValidarColecaoValores() { 
     int[] linhas = new int[5];
     int valoresPares = 0;
     int valoresImpares = 0;
@@ -21,20 +23,21 @@ public class _1066_ParesImparesPositivosNegativos
         {
           valoresPares++;
         } 
-        else{valoresImpares++;}
+        else
+            {valoresImpares++;}
       
         if (linhas[i] > 0)
-{ valoresPositivos++; }
-if (linhas[i] < 0)
-{ valoresNegativos++; }
+            { valoresPositivos++; }
+        if (linhas[i] < 0)
+            { valoresNegativos++; }
         
         
         }
        
 
     Console.WriteLine($"{valoresPares} valor(es) par(es)");
-Console.WriteLine($"{valoresImpares} valor(es) impar(es)");
-Console.WriteLine($"{valoresPositivos} valor(es) positivo(s)");
-Console.WriteLine($"{valoresNegativos} valor(es) negativo(s)");
-
+    Console.WriteLine($"{valoresImpares} valor(es) impar(es)");
+    Console.WriteLine($"{valoresPositivos} valor(es) positivo(s)");
+    Console.WriteLine($"{valoresNegativos} valor(es) negativo(s)");
+    }
 }

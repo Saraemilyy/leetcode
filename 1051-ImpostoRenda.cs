@@ -9,7 +9,7 @@ namespace Leetcode;
 public class Solution1051
 {
 
-
+    public  static void ValidarImpostoRenda() { 
 
         double salarioEntrada = double.Parse(Console.ReadLine());
 
@@ -54,5 +54,5 @@ public class Solution1051
             //Console.WriteLine($"R${valorImposto}");
         }
 
-
     }
+}

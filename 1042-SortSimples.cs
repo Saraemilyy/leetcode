@@ -4,7 +4,7 @@ namespace Leetcode;
 
 public class Solution1042
 {
-    public static void SortSimples(string[] entradas)
+    public static void SortSimples(string entrada)
     {
         //string entrada = Console.ReadLine();
 

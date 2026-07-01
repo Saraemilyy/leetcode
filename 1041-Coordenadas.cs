@@ -15,7 +15,7 @@ public class Solution1041
     //double coordenadaY = double.Parse(entradaArray[1]);
 
 
-    public static void VerificarCoordenadas(coordenadaX , coordenadaY)
+    public static void VerificarCoordenadas(double coordenadaX , double coordenadaY)
     {
         if (coordenadaX == 0.0 && coordenadaY == 0.0)
         {

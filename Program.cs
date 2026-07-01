@@ -8,12 +8,9 @@ class URI
     static void Main(string[] args)
     {
 
-        string[] pares = Solution1059.NumerosPares();
+        Solution1067.NumerosImpares();
 
-        foreach (string numero in pares)
-        {
-            Console.WriteLine(numero);
-        }
+
 
     }
 
